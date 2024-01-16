@@ -1,0 +1,391 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+* {}
+
+/* .header-section-start */
+.header-section .hero {
+    display: inline-flex;
+    color: #131318;
+    font-size: 28px;
+    gap: 16px;
+
+
+}
+
+
+.hero img {
+
+    width: 48px;
+    height: 56px;
+    padding-top: 30px;
+
+
+}
+
+.same-heading {
+    color: #131318;
+    font-size: 36px;
+}
+
+.travel {
+    color: #FF5400;
+    font-size: 36px;
+
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.bar-section {
+    display: inline-flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+}
+
+.bar-section a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.bar-section span {
+    color: #FF5400;
+    font-size: 18px;
+
+
+}
+
+/* Main-section-start */
+.main-section {
+    height: 500px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(Images/group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    border-radius: 16px;
+    align-items: center;
+    margin: 3rem, 0;
+    text-align: center;
+    padding-top: 80px;
+
+
+
+}
+
+.btn-4 {
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+
+
+.main-section h1 {
+    color: #FFF;
+    font-size: 64px;
+}
+
+.main-section p {
+    color: #FFF;
+}
+
+.main-btn {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: #FFF;
+    margin-left: 30px;
+
+}
+
+.primary-btn {
+    width: 174px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    background: #FF5400;
+    margin-left: 30px;
+}
+
+/* tour-description  */
+.tour-description {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 20px 137px;
+
+
+
+}
+
+
+.tour {
+    width: 50%;
+    text-align: center;
+    border: 1px solid rebeccapurple;
+}
+
+.mount-img {
+    width: 50%;
+    border: 1px solid royalblue;
+
+}
+
+/* Choose Your Destination */
+.destination {
+    text-align: center;
+
+}
+.more-picture{
+    display: grid;
+    grid-template-columns: repeat(2 ,minmax(300px, ));
+    grid-gap:20px;
+    grid-auto-flow: dense;
+    -ms-grid-column-align: center;
+    gap:20px;
+}
+
+/* heading and paragraph tag */
+.destination h2 .heading-2 {
+    font-size: 40px;
+}
+
+.primary-p {
+    color: rgba(19, 19, 24, 0.70);
+}
+
+.more-picture {
+    margin: 0px 137px;
+    border: 5px solid blue;
+
+}
+
+.more-picture .maldives-indonesia {
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(800px, 1fr));
+
+
+
+
+}
+
+.more-picture .srilanka-kashmir {
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(400px, 1fr));
+    margin-right: 30px;
+    justify-content: space-around;
+
+}
+
+.more-picture .bangladesh-bandarban {
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
+
+/* Why Choose Us */
+.choose {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid blueviolet;
+}
+
+.hotel-price {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 5px solid black;
+
+}
+
+.handpicked {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 573px;
+    height: 284px;
+
+
+}
+
+.world-class {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 573px;
+    height: 284px;
+}
+
+.guarantee {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 573px;
+    height: 284px;
+
+}
+
+/* Deals & Discounts */
+.heading-2 {
+    text-align: center;
+}
+
+.tour-to-satorini-1 {
+    background-image: url("Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    padding: 40px;
+   
+
+}
+
+.tour-to-satorini-2 {
+    background-image: url("Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+
+.tour-to-satorini-3 {
+    background-image: url("Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.tour-to-satorini-1 .new {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    
+    
+}
+
+.tour-to-satorini-2 .new {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+}
+.tour-to-satorini-3 .new {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 389px;
+    flex-shrink: 0;
+}
+
+
+
+.see-all-btn {
+    width: 210px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+/* A Simple Perfect Place To Get Lost */
+.perfect-place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+/* Newsletter */
+.newsletter {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sign-up {
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    margin-right: 20px;
+    text-align: center;
+    padding: 40PX;
+
+}
+
+.input-name {
+    width: 393px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 15px;
+}
+
+.input-email {
+    width: 393px;
+    height: 52px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-bottom: 15px;
+}
+
+.subscribe {
+    width: 393px;
+    height: 52px;
+    border: #FF5400;
+    border-radius: 8px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    background: #FF5400;
+}
+
+/* footer-section */
+.footer-section {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.last-logo {
+    display: inline-flex;
+    gap: 16px;
+}
+
+.last-logo img {
+    width: 40px;
+    height: 46.673px;
+    padding-top: 30px;
+
+}
+
+/* Mobile screen  */
